@@ -12,7 +12,7 @@ Shader "Custom/Ps2Look"
     }
     SubShader
     {
-        Tags { "RenderPipeline"="UniversalRenderPipeline" "RenderType"="Opaque" }
+        Tags { "RenderPipeline"="UniversalPipeline" "RenderType"="Opaque" }
         Cull Off ZWrite Off ZTest Always
 
         Pass
